@@ -18,5 +18,5 @@ Route::get('/', function () {
 Route::get('hola/index',
     'SitioController@index');
 
-Route::get('hola/saludo/{nombre}',
+Route::get('hola/saludo/{nombre}/{apellido}',
     'SitioController@saludar');
